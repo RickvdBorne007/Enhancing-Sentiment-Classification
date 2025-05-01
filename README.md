@@ -32,7 +32,6 @@ Key contributions:
 - **Name**: Amazon Fine Food Reviews  
 - **Source**: [Kaggle](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)  
 - **Size**: 568,454 reviews from 256,059 users on 74,258 products  
-- **Note**: Neutral reviews (score = 3) were excluded for binary classification
 
 ## ⚙️ How to Run
 
@@ -83,7 +82,6 @@ Engineered features include:
 - `TextLengthWords`
 - `NumUppercaseWords`
 - `AvgWordLength`
-- `SentimentDelta` (difference between text and summary polarity)
 
 See `src/features.py` for full logic.
 
@@ -100,4 +98,5 @@ Sentiment analysis: TextBlob (Loria, 2018)
 
 ## 📬 Contact
 
-For questions, reach out via GitHub Issues or contact me at `rickvdb@example.com`.
+For questions, reach out via GitHub Issues or contact me at `r.h.m.vdnborne@tilburguniversity.edu`.
+
