@@ -10,31 +10,11 @@ Key contributions:
 - Rigorous model tuning and cross-validation
 - Reproducibility and interpretability
 
-## 📂 Project Structure
-
-```
-.
-├── data/               # Input data files (not uploaded to GitHub)
-├── notebooks/          # Jupyter notebooks for analysis
-│   ├── Feature Engineering and EDA.ipynb
-│   ├── Comparison with Aravindan.ipynb
-│   └── Comparison with Landge.ipynb
-├── src/                # Python scripts for preprocessing, modeling (to be added)
-├── models/             # Saved trained models (optional)
-├── results/            # Evaluation outputs, metrics
-├── figures/            # Visualizations used in the thesis
-├── reports/            # Project summary or thesis PDF link
-├── requirements.txt    # Python dependencies
-├── README.md           # This file
-└── .gitignore
-```
-
 ## 📊 Dataset
 
 - **Name**: Amazon Fine Food Reviews  
 - **Source**: [Kaggle](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)  
 - **Size**: 568,454 reviews from 256,059 users on 74,258 products  
-- **Note**: Neutral reviews (score = 3) were excluded for binary classification
 
 ## ⚙️ How to Run
 
@@ -79,7 +59,6 @@ Engineered features include:
 - `TextLengthWords`
 - `NumUppercaseWords`
 - `AvgWordLength`
-- `SentimentDelta` (difference between text and summary polarity)
 
 These are implemented in the `Feature Engineering and EDA.ipynb` notebook.
 
@@ -96,4 +75,4 @@ Sentiment analysis: TextBlob (Loria, 2018)
 
 ## 📬 Contact
 
-For questions, reach out via GitHub Issues or contact me at `rickvdb@example.com`.
+For questions, reach out via GitHub Issues or contact me at `r.h.m.vdnborne@tilburguniversity.edu`.
