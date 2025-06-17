@@ -3,7 +3,7 @@
 ## Project Overview
 This repository contains the code and resources used for the master's thesis titled **"Enhancing Sentiment Classification Using Engineered Text Features: A Case Study on Amazon Food Reviews"**, submitted as part of the Data Science & Society MSc at Tilburg University.
 
-The study investigates whether the integration of sentiment polarity, subjectivity, and structural linguistic features can improve sentiment classification models. Using a comprehensive feature engineering pipeline and multiple machine learning models (Logistic Regression, Random Forest, Gaussian Naive Bayes), the research demonstrates that engineered features enhance classification accuracy.
+The study investigates whether the integration of extended features can improve sentiment classification models. Using a comprehensive feature engineering pipeline and multiple machine learning models (Logistic Regression, Random Forest, Gaussian Naive Bayes), the research demonstrates that engineered features provide limited and context-dependent improvements to classification accuracy.
 
 ## Language
 - Python 3.9+
